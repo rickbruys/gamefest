@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Somatic-Rounded';
+    src: url('../fonts/demo.html'); /* IE9 Compat Modes */
+    src: url('../fonts/Somatic-Rounded.woff') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Somatic-Rounded.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/.woff') format('woff'); /* Pretty Modern Browsers */
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: Somatic-Rounded;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    font-size: 54px;
+    font-weight: 01;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+}
+.header a{
+    font-size: 20px;
+}
+.nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header_bottom p{
+    font-size: 40px;
+}
+.header_bottom a{
+    font-size: 32px;
+}
+.index_background{
+    background: url(../img/minimalism-minimalist-landscape-artist-wallpaper-preview.jpg);
+    position: fixed; 
+    background-size: cover;
+    background-position: center;
+      
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
